@@ -10,6 +10,16 @@
     <meta name="keywords" content="ayoub ghozzi javascript">
     <meta name="description" content="Ayoub Ghozzi resume, JavaScript Developer and Trainer, MEAN Stack Developer">
 
+    <meta name="theme-color" content="#0563bb">
+    <link rel='manifest' href='./manifest.json'>
+
+    <script>
+        // Registering our Service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js', { scope: './' })
+        }
+    </script>
+
     <!-- Favicons -->
     <link href="assets/img/me-il.jpg" rel="icon">
     <link href="assets/img/me-il.jpg" rel="apple-touch-icon">
